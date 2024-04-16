@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Rosa</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head> 
+
+<body>
+
+    <h2>Formulário Aluno Do Rosa</h2>
+    <hr />
+    <form action="" method="post">
+        <fieldset>
+            
+            <legend>Dados Pessoais: </legend>
+
+            <label>Nome:</label>
+            <input type="text" name="nome" id="nome" 
+            placeholder="Zeca Nivete" required/> 
+            
+            <label>E-mail:</label> 
+            <input type="email" name="email" id="email" 
+            placeholder="zeca@disney.com" required/> 
+
+            <label>Senha:</label>
+            <input type="password" name="senha" id="senha" 
+            placeholder="********" required/> 
+            <br />
+
+            <label>Sexo:</label>
+            <label>
+                <input type="radio" name="sexo" value="masculino" /> Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="feminino" required /> Feminino
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Endereço: </legend>
+
+            <label>CEP:</label>
+            <input type="text" name="cep" id="cep" placeholder="12345-67" required/> 
+
+            <label>Logradouro:</label>
+            <input type="text" name="logradouro" id="logradouro" placeholder="Rua Da Subida Inclinada" required/> 
+
+            <label>Número:</label>
+            <input type="number" name="numero" id="numero" placeholder="1212 " required/> 
+
+            <br />
+
+            <label>Complemento:</label>
+            <input type="text" name="comp" id="comp" />
+
+        </fieldset>
+
+        <fieldset>
+        
+            <input type="submit" value="Enviar"/>
+
+            <input type="reset" value="Limpar"/> <br/>
+            
+            <a href="index.html" class="return-link">Voltar para a página inicial</a> <br/>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
